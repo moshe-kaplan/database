@@ -2,7 +2,7 @@
 
 ## Execute
 
-Once you have a query object built, either through a prepared statement or through the builder, you must then `execute()` the query and retrieve the results. Depending on the query type used, the results returned will vary. 
+Once you have a query object built, either through a prepared statement or through the builder, you must then `execute()` the query and retrieve the results. Depending on the query type used, the results returned will vary. If the query fails, a [Database_Exception] will be thrown.
 
 ## Select
 
